@@ -26,9 +26,11 @@ In short:
 ## Questions I still have:
 I was quite literal with the criteria.  I read it, as there should be an option for the user whether-or-not to give criteria at all ... but I did not see this in Paul's demonstration video.  I figured, it was better to put it in, and not-need it, than the alternative.
 
+Also, running this page on my local machine shows no errors at all.  It's only when it's run from GitHub Pages that there's a "favicon" 404 error.  What in the world?!
+
 
 ## Screenshots
-  ![NoConsoleErrors] (ScreenshotNoConsoleErrors.jpg)
+  ![NoConsoleErrors](ScreenshotNoConsoleErrors.jpg)
 
 ## Video Demo
 https://watch.screencastify.com/v/V9swwrYvE6oEYUKAYInR
