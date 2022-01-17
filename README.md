@@ -28,7 +28,7 @@ I was quite literal with the criteria.  I read it, as there should be an option 
 
 
 ## Screenshots
-  ![NoConsoleErrors] (ScreenshotNoConsoleErrors.jpg)
+  ![NoConsoleErrors](ScreenshotNoConsoleErrors.jpg)
 
 ## Video Demo
 https://watch.screencastify.com/v/V9swwrYvE6oEYUKAYInR
