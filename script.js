@@ -81,7 +81,6 @@ function generatePassword() {
 
   // The 'return' here is the output of this function.
   return password;
-
 }
 
 // This section was given.  It declares the output of the function; it also uses DOM to link it to HTML.
@@ -89,7 +88,7 @@ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
-}
+};
 
 // This section was given.  It makes the "Generate Button" ready to be clicked and DO something.
 generateBtn.addEventListener("click", writePassword);
