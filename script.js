@@ -16,7 +16,7 @@ function generatePassword() {
     symbols:"!@#$%^&*()+-*/[]{}|;,.<>?",
   };
 
-  // This is the pre-built character set, if the user chooses to not customize criteria.
+  // This is a pre-built character set, if the user chooses to not customize criteria.
   const defaultCharSet = charSets.lowers + charSets.uppers + charSets.numbers;
   
   // This is the prompt for the user, whether to customize or not, and the "if not" to continue to build and output the password.
