@@ -1,6 +1,10 @@
 # 03-Homework
 Password Generator - homework from 03-JavaScript
 
+## Link to the Working App
+https://patrickfham.github.io/03-Homework/
+
+
 ## The Process
 I left alone these items:
   the 'writePassword' function
