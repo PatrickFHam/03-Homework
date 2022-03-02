@@ -1,36 +1,20 @@
 # Password Generator
 Link to the Password Generator - https://patrickfham.github.io/PasswordGenerator/
 
-## The Process
-I left alone these items:
-  the 'writePassword' function
-  the 'generateBtn' variable
-  the 'generateBtn' event-listener
+## How it Works
+- The user will be prompted whether or not they want to customize the properties of the password.  If not, a generic one is given.
+- If customized, the next few prompts will ask for the number of characters, and if they want to use lowercase, uppercase, numbers, and symbols.
+- The generated password is displayed.
 
-All the work I did in the 'generatePassword' function is my own work.
-Beginning with the video that Paul Keldsen (TA) put into our #Resources channel on Slack, I did a LOT of reading and researching other password generator approaches online.  I had to refresh my memory on quite a few of these things that we covered in previous classes, like:
-  the Math.floor(Math.random()) mechanic
-  calling certain array positions
-  assignment operators
-
-In short:
-  I formed four arrays, which are groups of character-sets.
-  The user prompts (confirm) were used to catenate a single line of characters from which the randomizer will choose.
-  Some fail-safes were added, so that the instructions didn't 'break.'
-    Ex.1 Filtering-out user-inputs that are 'Not a Number.'
-    Ex.2 Minimum and Maximum password length.
-    Ex.3 Not allowing all character types to be disabled.
-    Ex.4 An option for the user to not give criteria; a default setting is provided.
-
-
-## Questions I still have:
-I was quite literal with the criteria.  I read it, as there should be an option for the user whether-or-not to give criteria at all ... but I did not see this in Paul's demonstration video.  I figured, it was better to put it in, and not-need it, than the alternative.
-
-Also, running this page on my local machine shows no errors at all.  It's only when it's run from GitHub Pages that there's a "favicon" 404 error.  What in the world?!
-
-
-## Screenshots
-  ![NoConsoleErrors](ScreenshotNoConsoleErrors.jpg)
+## Technologies Used
+- HTML/CSS
+- JavaScript
 
 ## Video Demo
 https://watch.screencastify.com/v/V9swwrYvE6oEYUKAYInR
+
+## Screenshots
+![Customize](customize.jpg)
+![HowManyCharacters](howmanycharacters.jpg)
+![Questions](userlowercase.jpg)
+![Completed](completed.jpg)
